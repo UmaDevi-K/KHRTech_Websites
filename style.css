@@ -1,0 +1,258 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Poppins:ital,wght@0,200;0,400;0,500;1,400;1,500&display=swap');
+
+  @media only screen and (min-width: 300px) and (max-width: 600px) {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  
+
+}}
+.content {
+    
+    list-style-type: none;
+    margin: 0;
+    display: block !important;
+    -webkit-padding-start: 0;
+    background-position: center center;
+   
+  }
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: #7ffbff;
+}
+
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #7ffbff;
+}
+#navbarSupportedContent button{
+    background: rgba(20,162,168,1);
+    border-radius: 15px;
+    color: white;
+    width: 5rem;
+}
+#navbarSupportedContent button:hover{
+    background:rgba(223,33,34,1);
+    border-radius: 15px;
+    color:  #7ffbff;
+}
+.green_font{
+    color: rgba(20,162,168,1);
+    font-size: 25px;
+    font-weight: 800;
+    
+}
+.red_font{
+    color:rgba(223,33,34,1);
+    font-size: 25px;
+    font-weight: 800;
+}
+.green_font_home{
+    color: rgba(20,162,168,1);
+
+    
+}
+.red_font_home{
+    color:rgba(223,33,34,1);
+
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+#home{
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4)),url("bags.png");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 80px;
+    color: white;
+    letter-spacing: 3px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0px 1px 0px  #ccc,
+    0px 2px 0px  #ccc,
+    0px 3px 0px  #ccc,
+    0px 4px 0px  #ccc
+   
+
+    ;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.signin{
+    background:  #7ffbff !important;
+}
+
+.home_bg{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.home_bg a{
+    color: rgb(255, 255, 160);
+    text-decoration: none;
+}
+#aboutus{
+    background: white;
+    color: black;
+  
+}
+#aboutus p{
+    color:rgba(0,0,0,.5) ;
+}
+#aboutus h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+#aboutus img{
+    
+        max-width:100%;
+        width:100%;
+      
+}
+
+
+#products{
+    
+    background: rgb(244, 244, 244);
+}
+#products h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+}
+#products img{
+    width: 200px;
+    height: 200px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background: rgb(244, 244, 244);
+    border: none !important;
+    box-shadow:  15px 20px 20px rgba(0,0,0,.3), 
+                 inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;   
+    margin: 20px 60px;          
+}
+.card:hover{
+    box-shadow:  5px 5px 10px rgba(0,0,0,.3),
+                inset -4px -4px 10px white;
+    transition: .2s;                
+}
+.card_bg{
+    background-color:  rgba(20,162,168,1) !important;
+    width: 100%;
+    
+}
+.card_info{
+    color:white !important;
+}
+.para_cardheight{
+    height: 100%;
+}
+#contact img{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 195, 255);
+}
+.box{
+    width: 80% !important;
+    background: white;
+    margin-top: 10px;
+}
+#contact h1 {
+font-weight: 800;
+font-size: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    }
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+#contact p{
+    color:rgba(0, 0, 0, 0.75) ;
+}
+.contactinfo{
+   background-color: rgba(20,162,168,1);
+   color: white;
+}
+.timings{
+    background-color: rgba(20,162,168,1);
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,.8);
+    
+    text-align: center;
+    color: white;
+     
+}
+.icon_social_navbar{
+    width: 33px;
+    height: 33px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    line-height: 34px !important;
+    text-align: center;
+    border-radius: 16px;
+    margin: 0px 1px;
+}
+.icon_social_navbar1{
+    width: 33px;
+    height: 33px;
+    font-size: 14px;
+    background-color:  rgba(20,162,168,1);
+    color: white;
+    line-height: 34px !important;
+    text-align: center;
+    border-radius: 16px;
+    margin: 0px 1px;
+}
+#icon_social_navbar1 a{
+    color: rgb(255, 255, 155);
+}
+.address_bg{
+  
+   background-color:  rgb(255, 255, 255);
+}
